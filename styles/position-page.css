@@ -1,1 +1,147 @@
 
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.3_the_position_property/outerspace_landscape.jpeg");
+    background-size: cover;
+    height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav[role=navigation] {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 10px 60px;
+  background-color: gray;
+}
+
+nav .nav-image {
+  border-radius: 50%;
+  width: 50px;
+  height: auto;
+  position: absolute;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 30px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li::after {
+  content: " | "
+}
+
+main {
+  position: relative;
+  margin-top: 250px;
+  width: 600px;
+  height: 300px;
+  border: 10px dotted white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacedog, .spacecat {
+  position: absolute;
+  width: 200px;
+  height: auto;
+}
+
+.spacecat {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+.spacedog {
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+}
+/*
+.test {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.dottedbox {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  border: 10px dotted white;
+  height: 300px;
+  width: 600px;
+}
+
+.main img {
+  height: 200px;
+  width: 200px;
+}
+
+.spacedog {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.spacecat {
+  position: absolute;
+  top: 0px;
+  left: 0px; 
+}*/
+/*
+main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.mainbox {
+width: 700px;
+height: 500px;
+margin: auto;
+position: absolute;
+top: 50%;
+bottom: 50%;
+background-color: white;
+}
+
+.mainbox > img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}*/
+
+/*
+.dottedborder { 
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  border: 10px dotted white;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}*/
