@@ -1,12 +1,34 @@
-body {
+html {
   background-color: black;
+}
+
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
 main {
-  padding-left: 90px;
-  padding-right: 90px;
   max-width: 1000px;
+  padding: 15px 90px;
   margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+}
+
+
+.firstimage, .secondimage {
+  width: 300px;
+  margin: 15px 0px;
+}
+.firstimage {
+  float: left;
+  margin-right: 15px;
+}
+
+.secondimage {
+  float: right;
+  margin-left: 15px;
 }
