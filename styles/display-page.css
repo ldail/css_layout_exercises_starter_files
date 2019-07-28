@@ -1,0 +1,106 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/*
+div { 
+border: 1px solid black;
+display: inline-block;
+}
+
+.top-one {
+  background-color: green;
+  width: 50%;
+  display: inline-block;
+}
+
+.top-two {
+  background-color: blue;
+  width: 50%;
+  display: inline-block;
+}
+
+.bottom-one {
+  background-color: gray;
+  width: 33%;
+}
+
+.bottom-two {
+  background-color: black;
+  width: 33%;
+}
+
+.bottom-three {
+  background-color: orange;
+  width: 33%;
+}
+
+main { 
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+  height: 200px;
+}
+
+.bottom {
+  height: 300px;
+}
+*/
+
+
+
+main {
+  width: 800px;
+  height: 500px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-size: 0;
+}
+
+div {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+section {
+  display: block;
+}
+
+.half {
+  width: 50%;
+  height: 200px;
+}
+
+.third {
+  width: 33.33%;
+  height: 300px;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange;
+}
